@@ -12,8 +12,15 @@
       <p>Sexo:
       <input type="radio" name="sexo" value="hombre" />Hombre
       <input type="radio" name="sexo" value="mujer" />Mujer .</p>
-
       <p>Correo:<input type="text" name="ape"></p>
+      <p>Población: <form action="control_form.php" method="get"> <select name="provincia">
+        <option value="su">--Selecciona una--</option>
+        <option value="al">Alicante</option>
+        <option value="ma">Madrid</option>
+        <option value="se">Sevilla</option>
+        <option value="va">Valencia</option>
+      </form></p>
+      <p>Comentario:<textarea name="comentario">Escriba su comentario</textarea></p>
       <p>Deseo recibir información sobre novedades y ofertas <input type="checkbox" name="virus" value="casado" checked="checked"/></p>
       <p>Declaro haber leido y aceptar las condiciones generales del programa
         y la normativa sobre protección de datos <input type="checkbox" name="estadocivil" value="terminosycondiciones"/></p>
