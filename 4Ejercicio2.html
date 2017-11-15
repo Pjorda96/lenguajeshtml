@@ -6,20 +6,22 @@
     <style>
       body{
         font: Sans-Serif;
+      }
+      p{
         color: #071EEF
       }
-      
+
     </style>
   </head>
   <body style="background-color: #6B97FF;">
     <h1 style="background-color: #B0B0B0;"  style="font-size:40px;">Florida Centre de Formació</h1>
     <h2 style="background-color: #B0B0B0;"  style="font-size:20px;">Ejemplo de formulario: Matriculación en en DAW</h2>
     <form action="index.html" method="get">
-      <p><b>Nombre:</b> <input type="text" name="name" value="" maxlength="50">
+      <b>Nombre:</b> <input type="text" name="name" value="" maxlength="50">
       <b>Apellidos:</b> <input type="text" name="ape" value="" maxlength="50">
-      <b>Sexo:</b> <input type="radio" name="M" value="">M
-      <input type="radio" name="H" value="">H</p>
-      <p><b>Fecha de nacimiento:</b>
+      <b>Sexo:</b> <input type="radio" name="sexo" value="mujer">M
+      <input type="radio" name="sexo" value="hombre">H <br><br>
+      <b>Fecha de nacimiento:</b>
       <select name="dia">
         <option selected="selected" value="dia">dia</option>
         <option value="1">1</option>
@@ -82,27 +84,28 @@
         <option value="1998">1998</option>
         <option value="1999">1999</option>
         <option value="2000">2000</option>
-      </select></p>
-      <p><b>Escoge los módulos en los que te matriculas: </b>
+      </select><br><br>
+      <b>Escoge los módulos en los que te matriculas: </b>
       <table>
         <tr><td><input type="checkbox" name="bbdd">Bases de Datos</input></td>
         <td><input type="checkbox" name="prog">Programación</input></td></tr>
-        <tr><td><input type="checkbox" name="leng">Lenguajes de Marcas</input></td>
+        <tr><td><input type="checkbox" name="leng"><b>Lenguajes de Marcas</b></input></td>
         <td><input type="checkbox" name="ing">Inglés</input></td></tr>
         <tr><td><input type="checkbox" name="si">Sistemas Informáticos</input></td>
         <td><input type="checkbox" name="eed">Entornos de Desarrollo</input></td></tr>
         <tr><td><input type="checkbox" name="fol">FOL</input></td>
         <td><input type="checkbox" name="admin">Administración de Sistemas Gestores de Bases de Datos</input></td></tr>
-        <tr><td><input type="checkbox" name="lengsi">Lenguajes de Marcas y Sistemas de Gestión de Información</input></td>
+        <tr><td><input type="checkbox" name="lengsi"><b>Lenguajes de Marcas y Sistemas de Gestión de Información</b></input></td>
         <td><input type="checkbox" name="seg">Seguridad y Alta Disponibilidad</input></td></tr>
         <tr><td><input type="checkbox" name="for">Formación y Orientación Laboral</input></td>
         <td><input type="checkbox" name="emp">Empresa e Iniciativa Emprendedora</input></td></tr>
         <tr><td><input type="checkbox" name="proy">Proyecto DAW</input></td>
         <td><input type="checkbox" name="centros">Formación en Centros de Trabajo</input></td></tr>
-      </table></p>
-      <p><i>Estudios previos:</i><br><textarea rows="2" cols="40" name="estudios"></textarea></p>
+      </table><br><br>
+      Estudios previos:<br><textarea rows="2" cols="40" name="estudios"></textarea><br>
       <p><input type="submit"value="Enviar">
       <input type="reset" value="Restablecer"></p>
+      <p><i>Pulsa el botón de "enviar" para formalizar la matrícula o el botón de "restablecer" para limpiar el forulario.</i></p>
     </form>
   </body>
 </html>

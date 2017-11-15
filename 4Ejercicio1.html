@@ -7,11 +7,11 @@
   <body>
     <form action="index.html" method="get">
       <h2>Ejemplo de formulario: Matriculación en en DAW</h2>
-      <p><b>Nombre:</b> <input type="text" name="name" value="" maxlength="50">
+      <b>Nombre:</b> <input type="text" name="name" value="" maxlength="50">
       <b>Apellidos:</b> <input type="text" name="ape" value="" maxlength="50">
       <b>Sexo:</b> <input type="radio" name="M" value="">M
-      <input type="radio" name="H" value="">H</p>
-      <p><b>Fecha de nacimiento:</b>
+      <input type="radio" name="H" value="">H <br><br>
+      <b>Fecha de nacimiento:</b>
       <select name="dia">
         <option selected="selected" value="dia">dia</option>
         <option value="1">1</option>
@@ -74,8 +74,8 @@
         <option value="1998">1998</option>
         <option value="1999">1999</option>
         <option value="2000">2000</option>
-      </select>
-      <p><b>Escoge los módulos en los que te matriculas: </b></p>
+      </select> <br><br>
+      <b>Escoge los módulos en los que te matriculas: </b></p>
       <table>
         <tr><td><input type="checkbox" name="bbdd">Bases de Datos</input></td>
         <td><input type="checkbox" name="prog">Programación</input></td></tr>
@@ -91,10 +91,11 @@
         <td><input type="checkbox" name="emp">Empresa e Iniciativa Emprendedora</input></td></tr>
         <tr><td><input type="checkbox" name="proy">Proyecto DAW</input></td>
         <td><input type="checkbox" name="centros">Formación en Centros de Trabajo</input></td></tr>
-      </table>
-      <p><b>Estudios previos:</b><br><textarea rows="2" cols="40" name="estudios"></textarea></p>
+      </table><br><br>
+      <b>Estudios previos:</b><br><textarea rows="2" cols="40" name="estudios"></textarea><br><br>
       <p><input type="submit"value="Enviar">
       <input type="reset" value="Restablecer"></p>
     </form>
+    <i>Pulsa el botón de "enviar" para formalizar la matrícula o el botón de "restablecer" para limpiar el forulario.</p>
   </body>
 </html>
