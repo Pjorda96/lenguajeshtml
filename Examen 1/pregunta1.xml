@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos [
+<!ELEMENT equipos (equipo+)>
+<!ELEMENT equipo (nombre, ciudad, jugadores)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT jugador (nombrej, puesto, altura)>
+<!ELEMENT nombrej (#PCDATA)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ATTLIST nombrej tipo ("Es" | "Extranjero") CDATA #REQUIRED>
+]>
+
+<equipos>
+  <equipo>
+    <nombre>San Antonio Spurs</nombre>
+    <ciudad>San Antonio</ciudad>
+    <jugadores>
+      <jugador>
+        <nombrej tipo="Es">Pau Gasol</nombrej>
+        <puesto>Ala-Pivot</puesto>
+        <altura>2.16</altura>
+      </jugador>
+    </jugadores>
+  </equipo>
+  <equipo>
+    <nombre>New York Kniks</nombre>
+    <ciudad>New York</ciudad>
+    <jugadores>
+      <jugador>
+        <nombrej tipo="Es">Willy Hernangómez</nombrej>
+        <puesto>Pivot</puesto>
+        <altura>1.95</altura>
+      <jugador>
+    </jugadores>
+  </equipo>
+  <equipo>
+    <nombre>Memphis Grizzlies</nombre>
+    <ciudad>Memphis</ciudad>
+    <jugadores>
+      <jugador>
+        <nombrej tipo="Es">Marc Gasol</nombrej>
+        <puesto>Pivot</puesto>
+        <altura>2.12</altura>
+      <jugador>
+    </jugadores>
+  </equipo>
+  <equipo>
+    <nombre>Toronto Raptors</nombre>
+    <ciudad>Toronto</ciudad>
+    <jugadores>
+      <jugador>
+        <nombrej tipo="Es">Serge Ibaka</nombrej>
+        <puesto>Pivot</puesto>
+        <altura>2.08</altura>
+      <jugador>
+    </jugadores>
+  </equipo>
+  <equipo>
+    <nombre>Utah Jazz</nombre>
+    <ciudad>Salt Lake City</ciudad>
+    <jugadores>
+      <jugador>
+        <nombrej tipo="Es">Ricky Rubio</nombrej>
+        <puesto>Base</puesto>
+        <altura>1.90</altura>
+      <jugador>
+    </jugadores>
+  </equipo>
+</equipos>
