@@ -1,0 +1,15 @@
+ul.sin{
+  list-style-type: none;
+}
+ul.circulos{
+  list-style-type: circle;
+}
+ul.cuadrados{
+  list-style-type: square;
+}
+ol.romanos{
+  list-style-type: lower-roman;
+}
+ol.griegas{
+  list-style-type: lower-greek;
+}
