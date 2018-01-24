@@ -1,0 +1,17 @@
+*{
+  font-family: Arial, Verdana;
+}
+h1{
+  font-family: Georgia;
+  size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2{
+  font-family: Georgia;
+  size: 24px;
+  text-transform: uppercase;
+}
+strong{
+  text-decoration: underline;
+}
