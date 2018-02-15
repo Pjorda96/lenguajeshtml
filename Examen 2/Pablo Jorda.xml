@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escuela xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "escuelaSchema.xsd">
+  <aula>
+    <nombre>A</nombre>
+    <alumnos>
+      <alumno>
+        <nombre>Alberto</nombre>
+        <fechaNacimiento>2018-01-15</fechaNacimiento>
+        <aula>A</aula>
+      </alumno>
+      <alumno>
+        <nombre>Juan</nombre>
+        <fechaNacimiento>2018-01-16</fechaNacimiento>
+        <aula>A</aula>
+      </alumno>
+    </alumnos>
+  </aula>
+  <aula>
+    <nombre>B</nombre>
+    <alumnos>
+      <alumno>
+        <nombre>Francisco</nombre>
+        <fechaNacimiento>2017-01-15</fechaNacimiento>
+        <aula>B</aula>
+      </alumno>
+      <alumno>
+        <nombre>Sergio</nombre>
+        <fechaNacimiento>2017-01-16</fechaNacimiento>
+        <aula>B</aula>
+      </alumno>
+    </alumnos>
+  </aula>
+</escuela>

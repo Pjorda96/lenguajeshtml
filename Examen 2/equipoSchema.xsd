@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name='escuela'>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name='aula' maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name='nombre' type='xsd:string'/>
+              <xs:element name='alumnos' maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name='alumno' maxOccurs="15">
+                      <xs:maxInclusive value="15"/>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name='nombre' type='xsd:string'/>
+                          <xs:element name='fechaNacimiento' type='xsd:date'/>
+                          <xs:element name='aula' type='xsd:integer'>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
