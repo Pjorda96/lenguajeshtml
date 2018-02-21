@@ -1,0 +1,5 @@
+12:02:34.900  INFO  [LibraryManager] ---- group creation in D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML
+12:02:34.910  INFO  [LibraryManager]  300
+13:45:32.652  INFO  [LibraryManager] shutdown begins
+13:45:32.730  INFO  [LibraryManager]  closed library com.qizx.xlib.A@1437288
+13:45:32.730  INFO  [LibraryManager] shutdown complete.
