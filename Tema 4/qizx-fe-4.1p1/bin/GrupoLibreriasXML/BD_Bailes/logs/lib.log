@@ -1,8 +1,2 @@
-12:03:33.723  INFO  [lib D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes] create storage
-12:03:33.848  INFO  [lib D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes] created in D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes\contents.qdb
-12:03:35.096  INFO  [lib D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes] creation_OK
-12:04:36.572  INFO  [lib D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes] session(BD_Bailes 1) start commit 1
-12:04:36.903  INFO  [lib D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes] session(BD_Bailes 1) end commit -> state: [ 1 ][ 1 2 ]
-12:04:36.909  INFO  [lib D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes] deleted metadocs 5
-13:45:32.699  INFO  [lib D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes] all sessions closed; sweeper stopped
-13:45:32.715  INFO  [lib D:\Florida\Ciclos Formativos\LMySGI 2013-14\qizx-fe-4.1p1\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes]  BD_Bailes library closed 
+11:26:00.148  INFO  [lib C:\xampp\htdocs\daw1\lenguajehtml\Tema 4\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes] library opened by Qizx 4.1p1
+11:35:29.160  INFO  [lib C:\xampp\htdocs\daw1\lenguajehtml\Tema 4\qizx-fe-4.1p1\bin\GrupoLibreriasXML\BD_Bailes]  BD_Bailes library closed 
