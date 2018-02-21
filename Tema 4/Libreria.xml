@@ -1,0 +1,38 @@
+<libreria>
+  <libro>
+    <cod_libro>1</cod_libro>
+    <titulo>Libro 1</titulo>
+    <numpags>235</numpags>
+    <autor>
+      <nombre>Paco</nombre>
+      <pais>España</pais>
+    </autor>
+  </libro>
+  <libro>
+    <cod_libro>2</cod_libro>
+    <titulo>Libro 2</titulo>
+    <numpags>135</numpags>
+    <autor>
+      <nombre>Paco</nombre>
+      <pais>España</pais>
+    </autor>
+  </libro>
+  <libro>
+    <cod_libro>3</cod_libro>
+    <titulo>Libro 3</titulo>
+    <numpags>23</numpags>
+    <autor>
+      <nombre>Paca</nombre>
+      <pais>España</pais>
+    </autor>
+  </libro>
+  <libro>
+    <cod_libro>4</cod_libro>
+    <titulo>Libro 4</titulo>
+    <numpags>2350</numpags>
+    <autor>
+      <nombre>Paca</nombre>
+      <pais>España</pais>
+    </autor>
+  </libro>
+</libreria>
