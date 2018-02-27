@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogo>
+	<libro>
+		<titulo>Peter Pan</titulo>
+		<numpags>300</numpags>
+		<anyo>1950</anyo>
+		<autores>
+			<autor>
+				<nombre>James Matthew Barrie</nombre>
+				<nacionalidad>Inglés</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<titulo>El conde de montecristo</titulo>
+		<numpags>1000</numpags>
+		<anyo>1896</anyo>
+		<autores>
+			<autor>
+				<nombre>Alejandro Dumas</nombre>
+				<nacionalidad>Francia</nacionalidad>
+			</autor>
+			<autor>
+				<nombre>Auguste Maquet</nombre>
+				<nacianalidad>Francia</nacianalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<titulo>El señor de los anillos</titulo>
+		<numpags>1500</numpags>
+		<anyo>1970</anyo>
+		<autores>
+			<autor>
+				<nombre>J. R. R. Tolkien</nombre>
+				<nacionalidad>Inglaterra</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<titulo>Don Quijote de la Mancha</titulo>
+		<numpags>2000</numpags>
+		<anyo>1605</anyo>
+		<autores>
+			<autor>
+				<nombre>Miguel de Cervantes</nombre>
+				<nacionalidad>España</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+	<libro>
+		<titulo>Hola Mundo</titulo>
+		<numpags>1</numpags>
+		<anyo>2017</anyo>
+		<autores>
+			<autor>
+				<nombre>Pablo J</nombre>
+				<nacionalidad>España</nacionalidad>
+			</autor>
+			<autor>
+				<nombre>Joan</nombre>
+				<nacionalidad>España</nacionalidad>
+			</autor>
+			<autor>
+				<nombre>Julio</nombre>
+				<nacionalidad>España</nacionalidad>
+			</autor>
+		</autores>
+	</libro>
+</catalogo>

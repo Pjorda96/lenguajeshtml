@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE listado_alumnos SYSTEM "listado_alumnos.dtd">
+<listado_alumnos>
+  <alumnos>
+    <nombre>Pepe Pérez</nombre>
+    <fecha_nacimiento>01-10-1995</fecha_nacimiento>
+    <sexo>Varón</sexo>
+  </alumno>
+</listado_alumnos>

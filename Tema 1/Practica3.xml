@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE calendario [
+<!ELEMENT calendario (jornada)+>
+<!ELEMENT jornada (numero, division+)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT division (categoria, grupo?, partido+)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT partido (local, visitante, fecha, hora, resultado)>
+<!ELEMENT local (#PCDATA)>
+<!ELEMENT visitante (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+]>
+<calendario>
+  <jornada>
+    <numero>1<numero>
+    <division>
+      <categoria>1ª</categoria>
+      <partido>
+        <local>Valencia CF</local>
+        <visitante>Levante UD</visitante>
+        <fecha>08/10/2017</fecha>
+        <hora>15:00</hora>
+        <resultado>5-0</resultado>
+      </partido>
+      <partido>
+        <local>Real Madrid</local>
+        <visitante>Barcelona FC</visitante>
+        <fecha>08/10/2017</fecha>
+        <hora>15:30</hora>
+        <resultado>2-2</resultado>
+      </partido>
+    </division>
+    <division>
+      <categoria>2ª</categoria>
+      <partido>
+        <local>Hércules</local>
+        <visitante>Albacete</visitante>
+        <fecha>08/10/2017</fecha>
+        <hora>15:00</hora>
+        <resultado>0-1</resultado>
+      </partido>
+      <partido>
+        <local>Real Zaragoza</local>
+        <visitante>Rayo Vallecano de Madrid</visitante>
+        <fecha>08/10/2017</fecha>
+        <hora>15:30</hora>
+        <resultado>3-2</resultado>
+      </partido>
+    </division>
+    <division>
+      <categoria>2Bª</categoria>
+      <partido>
+        <local>Real Racing Club de Santander</local>
+        <visitante>Real Murcia Club de Fútbol</visitante>
+        <fecha>08/10/2017</fecha>
+        <hora>15:00</hora>
+        <resultado>5-1</resultado>
+      </partido>
+      <partido>
+        <local>Real Madrid Castilla</local>
+        <visitante>Sociedad Deportiva Ponferradina</visitante>
+        <fecha>08/10/2017</fecha>
+        <hora>15:30</hora>
+        <resultado>3-1</resultado>
+      </partido>
+    </division>
+    <division>
+      <categoria>3ª</categoria>
+      <grupo>1</grupo>
+      <partido>
+        <local>CD Castellon</local>
+        <visitante>Algeciras CF</visitante>
+        <fecha>08/10/2017</fecha>
+        <hora>15:00</hora>
+        <resultado>4-3</resultado>
+      </partido>
+      <partido>
+        <local>Zamora CF</local>
+        <visitante>AD Ceuta FC</visitante>
+        <fecha>08/10/2017</fecha>
+        <hora>15:30</hora>
+        <resultado>1-2</resultado>
+      </partido>
+    </division>
+  </jornada>
+  <jornada>
+    <numero>2<numero>
+    <division>
+      <categoria>1ª</categoria>
+      <partido>
+        <local>Barcelona FC</local>
+        <visitante>Valencia CF</visitante>
+        <fecha>15/10/2017</fecha>
+        <hora>15:00</hora>
+        <resultado>0-5</resultado>
+      </partido>
+      <partido>
+        <local>Levante UD</local>
+        <visitante>Real Madrid</visitante>
+        <fecha>15/10/2017</fecha>
+        <hora>15:30</hora>
+        <resultado>2-2</resultado>
+      </partido>
+    </division>
+    <division>
+      <categoria>2ª</categoria>
+      <partido>
+        <local>Albacete</local>
+        <visitante>Rayo Vallecano de Madrid</visitante>
+        <fecha>15/10/2017</fecha>
+        <hora>15:00</hora>
+        <resultado>0-1</resultado>
+      </partido>
+      <partido>
+        <local>Real Zaragoza</local>
+        <visitante>Hércules</visitante>
+        <fecha>15/10/2017</fecha>
+        <hora>15:30</hora>
+        <resultado>3-2</resultado>
+      </partido>
+    </division>
+    <division>
+      <categoria>2Bª</categoria>
+      <partido>
+        <local>Real Murcia Club de Fútbol</local>
+        <visitante>Sociedad Deportiva Ponferradina</visitante>
+        <fecha>15/10/2017</fecha>
+        <hora>15:00</hora>
+        <resultado>5-1</resultado>
+      </partido>
+      <partido>
+        <local>Real Madrid Castilla</local>
+        <visitante>Real Racing Club de Santander</visitante>
+        <fecha>15/10/2017</fecha>
+        <hora>15:30</hora>
+        <resultado>3-1</resultado>
+      </partido>
+    </division>
+    <division>
+      <categoria>3ª</categoria>
+      <partido>
+        <local>AD Ceuta FC</local>
+        <visitante>CD Castellon</visitante>
+        <fecha>15/10/2017</fecha>
+        <hora>15:00</hora>
+        <resultado>4-3</resultado>
+      </partido>
+      <partido>
+        <local>Algeciras CF</local>
+        <visitante>Zamora CF</visitante>
+        <fecha>15/10/2017</fecha>
+        <hora>15:30</hora>
+        <resultado>1-2</resultado>
+      </partido>
+    </division>
+  </jornada>
+</calendario>

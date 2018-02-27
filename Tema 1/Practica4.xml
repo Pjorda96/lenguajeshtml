@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sist [
+<!ELEMENT sist (farmacia)+>
+<!ELEMENT farmacia (nombre, direccion, tlf, contacto, receta+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT contacto (#PCDATA)>
+<!ELEMENT receta (cliente, nSS, medicamento+)>
+<!ELEMENT cliente (#PCDATA)>
+<!ELEMENT nSS (#PCDATA)>
+<!ELEMENT medicamento (nombre, precio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+]>
+<sist>
+  <farmacia>
+    <nombre>Calle 21</nombre>
+    <direccion>Calle 21</direccion>
+    <tlf>667775521</tlf>
+    <contacto>Juan</contacto>
+    <receta>
+      <cliente>Pablo</cliente>
+      <nSS>112233445566</nSS>
+      <medicamento>
+        <nombre>Aspirina</nombre>
+        <precio>2€</precio>
+      </medicamento>
+      <medicamento>
+        <nombre>Ibuprofeno</nombre>
+        <precio>1€</precio>
+      </medicamento>
+    </receta>
+    <receta>
+      <cliente>Julio</cliente>
+      <nSS>998877665544</nSS>
+      <medicamento>
+        <nombre>Fortasec</nombre>
+        <precio>5€</precio>
+      </medicamento>
+      <medicamento>
+        <nombre>Lizipaina</nombre>
+        <precio>1.5€</precio>
+      </medicamento>
+    </receta>
+  </farmacia>
+  <farmacia>
+    <nombre>Esquina 24h</nombre>
+    <direccion>Calle dos</direccion>
+    <tlf>77551122</tlf>
+    <contacto>Ana</contacto>
+    <receta>
+      <cliente>Joan</cliente>
+      <nSS>8855223366</nSS>
+      <medicamento>
+        <nombre>Supositorio regusto a fresa</nombre>
+        <precio>8€</precio>
+      </medicamento>
+      <medicamento>
+        <nombre>Supositorio regusto a menta</nombre>
+        <precio>8€</precio>
+      </medicamento>
+    </receta>
+    <receta>
+      <cliente>Josep</cliente>
+      <nSS>4455663388</nSS>
+      <medicamento>
+        <nombre>Para la tos</nombre>
+        <precio>4</precio>
+      </medicamento>
+      <medicamento>
+        <nombre>Para el dolor de cabeza</nombre>
+        <precio>€</precio>
+      </medicamento>
+    </receta>
+  </farmacia>
+</sist>

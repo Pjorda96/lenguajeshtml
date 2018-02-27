@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colegio>
+	<curso nombre="primero">
+		<grupo aula="A">
+			<alumno>
+				<nombre>Ana</nombre>
+				<localidad>Valencia</localidad>
+				<nota>4</nota>
+			</alumno>
+			<alumno>
+				<nombre>Antonio</nombre>
+				<localidad>Valencia</localidad>
+				<nota>9</nota>
+			</alumno>
+			<alumno>
+				<nombre>Juan</nombre>
+				<localidad>Valencia</localidad>
+				<nota>6</nota>
+			</alumno>
+			<alumno>
+				<nombre>Pablo</nombre>
+				<localidad>Valencia</localidad>
+				<nota>10</nota>
+			</alumno>
+		</grupo>
+		<grupo aula="B">
+			<alumno>
+				<nombre>Pedro</nombre>
+				<localidad>Valencia</localidad>
+				<nota>7</nota>
+			</alumno>
+			<alumno>
+				<nombre>Joan</nombre>
+				<localidad>Valencia</localidad>
+				<nota>8</nota>
+			</alumno>
+			<alumno>
+				<nombre>Julio</nombre>
+				<localidad>Valencia</localidad>
+				<nota>3</nota>
+			</alumno>
+			<alumno>
+				<nombre>Josep</nombre>
+				<localidad>Valencia</localidad>
+				<nota>2</nota>
+			</alumno>
+		</grupo>
+	</curso>
+	<curso nombre="segundo">
+		<grupo aula="A">
+			<alumno>
+				<nombre>Sergio</nombre>
+				<localidad>Valencia</localidad>
+				<nota>7</nota>
+			</alumno>
+			<alumno>
+				<nombre>Regi</nombre>
+				<localidad>Valencia</localidad>
+				<nota>10</nota>
+			</alumno>
+			<alumno>
+				<nombre>David</nombre>
+				<localidad>Valencia</localidad>
+				<nota>10</nota>
+			</alumno>
+			<alumno>
+				<nombre>David J</nombre>
+				<localidad>Valencia</localidad>
+				<nota>10</nota>
+			</alumno>
+		</grupo>
+		<grupo aula="B">
+			<alumno>
+				<nombre>Iñaki</nombre>
+				<localidad>Madrid</localidad>
+				<nota>4</nota>
+			</alumno>
+			<alumno>
+				<nombre>TJ</nombre>
+				<localidad>Valencia</localidad>
+				<nota>5</nota>
+			</alumno>
+			<alumno>
+				<nombre>dtkl</nombre>
+				<localidad>Valencia</localidad>
+				<nota>6</nota>
+			</alumno>
+			<alumno>
+				<nombre>dtj</nombre>
+				<localidad>Valencia</localidad>
+				<nota>2</nota>
+			</alumno>
+		</grupo>
+	</curso>
+	<curso nombre="tercero">
+		<grupo aula="A">
+			<alumno>
+				<nombre>Fran</nombre>
+				<localidad>Valencia</localidad>
+				<nota>6</nota>
+			</alumno>
+			<alumno>
+				<nombre>Yoan</nombre>
+				<localidad>Castellón</localidad>
+				<nota>1</nota>
+			</alumno>
+			<alumno>
+				<nombre>Azul</nombre>
+				<localidad>Madrid</localidad>
+				<nota>6</nota>
+			</alumno>
+			<alumno>
+				<nombre>África</nombre>
+				<localidad>Barcelona</localidad>
+				<nota>8</nota>
+			</alumno>
+		</grupo>
+		<grupo aula="B">
+			<alumno>
+				<nombre>Asia</nombre>
+				<localidad>Valencia</localidad>
+				<nota>5</nota>
+			</alumno>
+			<alumno>
+				<nombre>Regi</nombre>
+				<localidad>Lleida</localidad>
+				<nota>9</nota>
+			</alumno>
+			<alumno>
+				<nombre>Josep</nombre>
+				<localidad>Toledo</localidad>
+				<nota>6.8</nota>
+			</alumno>
+			<alumno>
+				<nombre>Pablo</nombre>
+				<localidad>Valencia</localidad>
+				<nota>10</nota>
+			</alumno>
+		</grupo>
+	</curso>
+</colegio>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE matricula [
+<!ELEMENT matricula (alumno)>
+<!ELEMENT alumno (dni, nombre, ciclo, curso, domicilios)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ciclo (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT domicilios (domicilio+)>
+<!ELEMENT domicilio (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST domicilio tipo ("vivienda habitual" | "segunda residencia") CDATA #REQUIRED>
+]>
+
+<matricula>
+  <alumno>
+    <dni>12345678X</dni>
+    <nombre>Pepe Pérez</nombre>
+    <ciclo>DAM</ciclo>
+    <curso>2016/2017</curso>
+    <domicilios>
+      <domicilio tipo="vivienda habitual">
+        <nombre>C/ Sin nombre, 17</nombre>
+      </domicilio>
+      <domicilio tipo="segunda residencia">
+        <nombre>C/ Con nombre, 17</nombre>
+      </domicilio>
+    </domicilios>
+  </alumno>
+  <pago>
+    <tipo_pago>Por banco</tipo_pago>
+  </pago>
+</matricula>

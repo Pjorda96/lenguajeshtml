@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE informe [
+<!ELEMENT informe (cabecera, cuerpo)>
+<!ELEMENT cabecera (descripcion, fecha+)>
+<!ELEMENT descripcion ANY>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cuerpo (region+, semestre+, nenvios)>
+<!ELEMENT region (semestre)>
+<!ELEMENT semestre (nenvios)>
+<!ELEMENT nenvios (#PCDATA)>
+<!ATTLIST region tipo (Norte | Centro | Sur) CDATA #REQUIRED>
+<!ATTLIST semestre tipo (1 | 2) CDATA #REQUIRED>
+]>
+
+<informe>
+  <cabecera>
+    <descripcion>Envíos nacionales</descripcion>
+    <fecha>15-06-2016</fecha>
+  </cabecera>
+  <cuerpo>
+    <region tipo="Norte">
+      <semestre tipo="1">
+        <nenvios>350</nenvios>
+      </semestre>
+      <semestre tipo="2">
+        <nenvios>400</nenvios>
+      </semestre>
+    </region>
+    <region tipo="Centro">
+      <semestre tipo="1">
+        <nenvios>500</nenvios>
+      </semestre>
+      <semestre tipo="2">
+        <nenvios>450</nenvios>
+      </semestre>
+    </region>
+    <region tipo="Sur">
+      <semestre tipo="1">
+        <nenvios>450</nenvios>
+      </semestre>
+      <semestre tipo="2">
+        <nenvios>400</nenvios>
+      </semestre>
+    </region>
+  </cuerpo>
+</informe>

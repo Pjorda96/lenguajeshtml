@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE etiqueta [
+<!ELEMENT listado_alumnos (alumnos+)>
+<!ELEMENT alumnos (nombre, fecha_nacimiento, sexo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha_naciemiento (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
+]>

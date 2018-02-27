@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetario [
+<!ELEMENT recetario (receta)+>
+<!ELEMENT recetario (autor+, nombre, indicativo+, dificultad, ingredientes)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT nombre (ANY)>
+<!ELEMENT indicativo (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente)+>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ATTLIST dificultad tipo (Bajo | Medio | Alto) #REQUIRED>
+]>
+<recetario>
+  <receta>
+    <autor>mi abuela</autor>
+    <autor>mi madre</autor>
+    <nombre>pastel de chocolate</nombre>
+    <indicativo>merienda</indicativo>
+    <ingredientes>
+      <ingrediente>huevos</ingrediente>
+      <ingrediente>harina</ingrediente>
+      <ingrediente>chocolate</ingrediente>
+    </ingredientes>
+    <dificultad>Bajo</dificultad>
+  </receta>
+  <receta>
+    <autor>Ferrán Adriá</autor>
+    <nombre>esferificacion de sopa</nombre>
+    <indicativo>Comida</indicativo>
+    <ingredientes>
+      <ingrediente>nitrógeno líquido</ingrediente>
+      <ingrediente>caldo</ingrediente>
+      <ingrediente>trufa</ingrediente>
+    </ingredientes>
+    <dificultad>Alto</dificultad>
+  </receta>
+  <receta>
+    <autor>Pablo</autor>
+    <nombre>tortilla</nombre>
+    <indicativo>comida</indicativo>
+    <indicativo>cena</indicativo>
+    <ingredientes>
+      <ingrediente>huevos</ingrediente>
+      <ingrediente>aceite</ingrediente>
+      <ingrediente>sal</ingrediente>
+    </ingredientes>
+    <dificultad>Bajo</dificultad>
+  </receta>
+</recetario>

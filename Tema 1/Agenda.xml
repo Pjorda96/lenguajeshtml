@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agenda>
+	<contacto>
+		<nombre>Joan</nombre>
+		<apellido1>Banyuls</apellido1>
+		<apellido2>Sánchez</apellido2>
+		<direccion>
+			<pais>Alemania</pais>
+			<provinvia>Alicante</provinvia>
+			<localidad>Javea</localidad>
+			<calle>Sandoval</calle>
+			<numero>6</numero>
+			<escalera></escalera>
+			<piso>4</piso>
+			<puerta>c</puerta>
+			<codigoPostal>03730</codigoPostal>
+		</direccion>
+		<telefono>
+			<casa>960000000</casa>
+			<movil>675464543</movil>
+			<trabajo></trabajo>
+		</telefono>
+		<email></email>
+	</contacto>
+</agenda>

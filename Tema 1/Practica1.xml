@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+<!ELEMENT agenda (contacto+)>
+<!ELEMENT contacto (nombre, apellidos, tlf, email?, direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT direccion (calle, numero, codigo-postal)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT codigo-postal (#PCDATA)>
+]>
+<agenda>
+	<contacto>
+		<nombre>Pablo</nombre>
+		<apellidos>Jordá</apellidos>
+		<tlf>666777888</tlf>
+		<email>pjorda96@gmail.com</email>
+		<direccion>
+			<calle>calle sexta</calle>
+			<numero>2</numero>
+			<codigo-postal>46020</codigo-postal>
+		</direccion>
+	</contacto>
+	<contacto>
+		<nombre>Joan</nombre>
+		<apellidos>Banyulls</apellidos>
+		<tlf>666999333</tlf>
+		<email>joanbanyulls@movistar.com</email>
+		<direccion>
+			<calle>times square</calle>
+			<numero>5</numero>
+			<codigo-postal>46020</codigo-postal>
+		</direccion>
+	</contacto>
+	<contacto>
+		<nombre>Julio</nombre>
+		<apellidos>Veigar</apellidos>
+		<tlf>777555333</tlf>
+		<email>juliolol@</email>
+		<direccion>
+			<calle>central</calle>
+			<numero>25</numero>
+			<codigo-postal>46020</codigo-postal>
+		</direccion>
+	</contacto>
+</agenda>
