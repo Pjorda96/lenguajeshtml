@@ -1,0 +1,98 @@
+<alumnos>
+  <alumno>
+    <nomAlum>Pepito</nomAlum>
+    <direccion>C/ El pez, 4</direccion>
+    <poblacion>Catarroja</poblacion>
+    <FechaNac>04/06/2014</FechaNac>
+    <tutor>
+      <nomTutor>Pepe</nomTutor>
+      <grupo>5ºA</grupo>
+      <ciudad>Paterna</ciudad>
+    </tutor>
+    <notaMedia>6</notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum>Anita</nomAlum>
+    <direccion>C/ El pájaro,7</direccion>
+    <poblacion>Albal</poblacion>
+    <FechaNac>03/04/2014</FechaNac>
+    <tutor>
+      <nomTutor>Ana</nomTutor>
+      <grupo>5ºB</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia>7</notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum>Juanito</nomAlum>
+    <direccion>C/ El leon, 2</direccion>
+    <poblacion>Catarroja</poblacion>
+    <FechaNac>01/06/2013</FechaNac>
+    <tutor>
+      <nomTutor>Juan</nomTutor>
+      <grupo>6ºA</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia>7</notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum>Evita</nomAlum>
+    <direccion>C/ El pez, 4</direccion>
+    <poblacion></poblacion>
+    <FechaNac>04/06/2014</FechaNac>
+    <tutor>
+      <nomTutor>Ana</nomTutor>
+      <grupo>5ºA</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia></notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum></nomAlum>
+    <direccion>C/ El pez, 4</direccion>
+    <poblacion></poblacion>
+    <FechaNac>04/06/2014</FechaNac>
+    <tutor>
+      <nomTutor>Juan</nomTutor>
+      <grupo>5ºA</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia></notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum></nomAlum>
+    <direccion>C/ El pez, 4</direccion>
+    <poblacion></poblacion>
+    <FechaNac>04/06/2014</FechaNac>
+    <tutor>
+      <nomTutor>Pepe</nomTutor>
+      <grupo>5ºA</grupo>
+      <ciudad>Paterna</ciudad>
+    </tutor>
+    <notaMedia></notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum></nomAlum>
+    <direccion>C/ El pez, 4</direccion>
+    <poblacion></poblacion>
+    <FechaNac>04/06/2014</FechaNac>
+    <tutor>
+      <nomTutor>Ana</nomTutor>
+      <grupo>5ºA</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia></notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum></nomAlum>
+    <direccion>C/ El pez, 4</direccion>
+    <poblacion></poblacion>
+    <FechaNac>04/06/2014</FechaNac>
+    <tutor>
+      <nomTutor>Juan</nomTutor>
+      <grupo>5ºA</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia></notaMedia>
+  </alumno>
+</alumnos>

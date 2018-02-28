@@ -25,7 +25,7 @@
   </alumno>
   <alumno>
     <nomAlum>Juanito</nomAlum>
-    <direccion>C/ El leon, 2</direccion>
+    <direccion>C/ El león, 2</direccion>
     <poblacion>Catarroja</poblacion>
     <FechaNac>01/06/2013</FechaNac>
     <tutor>
@@ -37,62 +37,74 @@
   </alumno>
   <alumno>
     <nomAlum>Evita</nomAlum>
-    <direccion>C/ El pez, 4</direccion>
-    <poblacion></poblacion>
-    <FechaNac>04/06/2014</FechaNac>
-    <tutor>
-      <nomTutor>Ana</nomTutor>
-      <grupo>5ºA</grupo>
-      <ciudad>Torrente</ciudad>
-    </tutor>
-    <notaMedia></notaMedia>
-  </alumno>
-  <alumno>
-    <nomAlum></nomAlum>
-    <direccion>C/ El pez, 4</direccion>
-    <poblacion></poblacion>
-    <FechaNac>04/06/2014</FechaNac>
-    <tutor>
-      <nomTutor>Juan</nomTutor>
-      <grupo>5ºA</grupo>
-      <ciudad>Torrente</ciudad>
-    </tutor>
-    <notaMedia></notaMedia>
-  </alumno>
-  <alumno>
-    <nomAlum></nomAlum>
-    <direccion>C/ El pez, 4</direccion>
-    <poblacion></poblacion>
-    <FechaNac>04/06/2014</FechaNac>
+    <direccion>C/ La luna, 2</direccion>
+    <poblacion>Silla</poblacion>
+    <FechaNac>03/03/2013</FechaNac>
     <tutor>
       <nomTutor>Pepe</nomTutor>
       <grupo>5ºA</grupo>
       <ciudad>Paterna</ciudad>
     </tutor>
-    <notaMedia></notaMedia>
+    <notaMedia>8</notaMedia>
   </alumno>
   <alumno>
-    <nomAlum></nomAlum>
-    <direccion>C/ El pez, 4</direccion>
-    <poblacion></poblacion>
-    <FechaNac>04/06/2014</FechaNac>
-    <tutor>
-      <nomTutor>Ana</nomTutor>
-      <grupo>5ºA</grupo>
-      <ciudad>Torrente</ciudad>
-    </tutor>
-    <notaMedia></notaMedia>
-  </alumno>
-  <alumno>
-    <nomAlum></nomAlum>
-    <direccion>C/ El pez, 4</direccion>
-    <poblacion></poblacion>
-    <FechaNac>04/06/2014</FechaNac>
+    <nomAlum>Luisito</nomAlum>
+    <direccion>C/ El pájaro, 3</direccion>
+    <poblacion>Albal</poblacion>
+    <FechaNac>07/08/2013</FechaNac>
     <tutor>
       <nomTutor>Juan</nomTutor>
-      <grupo>5ºA</grupo>
+      <grupo>6ºA</grupo>
       <ciudad>Torrente</ciudad>
     </tutor>
-    <notaMedia></notaMedia>
+    <notaMedia>6</notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum>Laurita</nomAlum>
+    <direccion>C/ El cerezo, 1</direccion>
+    <poblacion>Catarroja</poblacion>
+    <FechaNac>03/04/2014</FechaNac>
+    <tutor>
+      <nomTutor>Ana</nomTutor>
+      <grupo>5ºB</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia>7</notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum>Miguelito</nomAlum>
+    <direccion>C/ La trucha, 4</direccion>
+    <poblacion>Silla</poblacion>
+    <FechaNac>03/04/2014</FechaNac>
+    <tutor>
+      <nomTutor>Ana</nomTutor>
+      <grupo>5ºB</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia>9</notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum>Carlita</nomAlum>
+    <direccion>C/ El árbol, 1</direccion>
+    <poblacion>Albal</poblacion>
+    <FechaNac>05/06/2013</FechaNac>
+    <tutor>
+      <nomTutor>Juan</nomTutor>
+      <grupo>6ºA</grupo>
+      <ciudad>Torrente</ciudad>
+    </tutor>
+    <notaMedia>7</notaMedia>
+  </alumno>
+  <alumno>
+    <nomAlum>Pedrito</nomAlum>
+    <direccion>C/ El pez, 7</direccion>
+    <poblacion>Catarroja</poblacion>
+    <FechaNac>09/09/2013</FechaNac>
+    <tutor>
+      <nomTutor>Pepe</nomTutor>
+      <grupo>5ºA</grupo>
+      <ciudad>Paterna</ciudad>
+    </tutor>
+    <notaMedia>8</notaMedia>
   </alumno>
 </alumnos>

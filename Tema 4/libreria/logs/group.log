@@ -1,2 +1,6 @@
-12:31:17.233  INFO  [LibraryManager] ---- group creation in C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria
-12:31:17.236  INFO  [LibraryManager]  300
+13:02:04.036  INFO  [LibraryManager] ---- starting up ----
+13:02:04.038  INFO  [LibraryManager]  300
+13:02:04.043  INFO  [LibraryManager] Library group ready
+13:04:23.529  INFO  [LibraryManager] shutdown begins
+13:04:23.536  INFO  [LibraryManager]  closed library com.qizx.xlib.A@4e84088a
+13:04:23.536  INFO  [LibraryManager] shutdown complete.
