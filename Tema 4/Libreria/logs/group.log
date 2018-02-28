@@ -1,0 +1,6 @@
+16:52:52.009  INFO  [LibraryManager] ---- starting up ----
+16:52:52.009  INFO  [LibraryManager]  300
+16:52:52.103  INFO  [LibraryManager] Library group ready
+17:05:39.536  INFO  [LibraryManager] shutdown begins
+17:05:39.556  INFO  [LibraryManager]  closed library com.qizx.xlib.A@58abfe8d
+17:05:39.556  INFO  [LibraryManager] shutdown complete.

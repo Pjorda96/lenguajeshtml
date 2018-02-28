@@ -1,1 +1,9 @@
-1. 
+1. doc("Prac 01.xml")//alumnos/alumno[poblacion="Catarroja"]
+
+2. doc("Prac 01.xml")//alumnos/alumno[tutor/nomTutor="Pepe" or tutor/nomTutor="Juan"]
+
+3. doc("Prac 01.xml")//alumnos/alumno[notaMedia<8]
+
+4. doc("Prac 01.xml")//alumnos/alumno[tutor/ciudad="Torrente"]
+
+5. //doc("Prac 01.xml")//alumnos/alumno[FechaNac >xs:date('2013-01-01') and FechaNac<xs:date('2013-12-31')]
