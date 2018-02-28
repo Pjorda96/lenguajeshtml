@@ -3,3 +3,35 @@
 13:45:32.652  INFO  [LibraryManager] shutdown begins
 13:45:32.730  INFO  [LibraryManager]  closed library com.qizx.xlib.A@1437288
 13:45:32.730  INFO  [LibraryManager] shutdown complete.
+11:58:24.535  INFO  [LibraryManager] ---- starting up ----
+11:58:24.538  INFO  [LibraryManager]  300
+11:58:46.879  INFO  [LibraryManager] ---- group creation in C:\xampp\htdocs\daw1\lenguaje\Tema 4\qizx-fe-4.1p1\bin\Nueva Carpeta
+11:58:46.882  INFO  [LibraryManager]  300
+11:59:01.696  INFO  [LibraryManager] shutdown begins
+11:59:01.700  INFO  [LibraryManager] shutdown complete.
+11:59:01.704  INFO  [LibraryManager] ---- starting up ----
+11:59:01.706  INFO  [LibraryManager]  300
+11:59:01.706  INFO  [LibraryManager] Library group ready
+11:59:36.082  INFO  [LibraryManager] shutdown begins
+11:59:36.082  INFO  [LibraryManager] shutdown complete.
+12:00:01.709  INFO  [LibraryManager] ---- starting up ----
+12:00:01.711  INFO  [LibraryManager]  300
+12:00:01.712  INFO  [LibraryManager] Library group ready
+12:00:18.437  INFO  [LibraryManager] shutdown begins
+12:00:18.439  INFO  [LibraryManager] shutdown complete.
+12:00:18.443  INFO  [LibraryManager] ---- starting up ----
+12:00:18.445  INFO  [LibraryManager]  300
+12:00:18.445  INFO  [LibraryManager] Library group ready
+12:05:23.750  INFO  [LibraryManager] shutdown begins
+12:05:23.755  INFO  [LibraryManager]  closed library com.qizx.xlib.A@3f84cf24
+12:05:23.755  INFO  [LibraryManager] shutdown complete.
+12:05:23.758  INFO  [LibraryManager] ---- group creation in C:\xampp\htdocs\daw1\lenguaje\libreria
+12:05:23.760  INFO  [LibraryManager]  300
+12:07:06.720  INFO  [LibraryManager] shutdown begins
+12:07:06.724  INFO  [LibraryManager]  closed library com.qizx.xlib.A@6a7328e7
+12:07:06.725  INFO  [LibraryManager] shutdown complete.
+12:07:59.739  INFO  [LibraryManager] ---- group creation in C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria
+12:07:59.741  INFO  [LibraryManager]  300
+12:19:11.581  INFO  [LibraryManager] shutdown begins
+12:19:11.588  INFO  [LibraryManager]  closed library com.qizx.xlib.A@7131714a
+12:19:11.588  INFO  [LibraryManager] shutdown complete.

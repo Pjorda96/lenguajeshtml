@@ -1,0 +1,6 @@
+12:31:25.524  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria\libreria] create storage
+12:31:25.537  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria\libreria] created in C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria\libreria\contents.qdb
+12:31:25.756  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria\libreria] creation_OK
+12:31:56.519  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria\libreria] session(libreria 1) start commit 1
+12:31:56.560  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria\libreria] deleted metadocs 5
+12:31:56.560  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\libreria\libreria] session(libreria 1) end commit -> state: [ 1 ][ 1 2 ]
