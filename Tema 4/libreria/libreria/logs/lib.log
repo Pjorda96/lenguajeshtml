@@ -1,8 +1,0 @@
-13:02:09.533  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria] create storage
-13:02:09.568  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria] created in C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria\contents.qdb
-13:02:09.799  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria] creation_OK
-13:02:18.699  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria] session(libreria 1) start commit 1
-13:02:18.739  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria] session(libreria 1) end commit -> state: [ 1 ][ 1 2 ]
-13:02:18.739  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria] deleted metadocs 5
-13:04:23.531  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria] all sessions closed; sweeper stopped
-13:04:23.535  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Probando\libreria]  libreria library closed 
