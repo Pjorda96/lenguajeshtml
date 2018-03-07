@@ -6,4 +6,17 @@
 
 4. doc("Prac 01.xml")//alumnos/alumno[tutor/ciudad="Torrente"]
 
-5. //doc("Prac 01.xml")//alumnos/alumno[FechaNac >xs:date('2013-01-01') and FechaNac<xs:date('2013-12-31')]
+5. declare namespace functx = "http://www.functx.com";
+declare function functx:mmddyyyy-to-date
+  ( $dateString as xs:string? )  as xs:date? {
+
+   if (empty($dateString))
+   then ()
+   else if (not(matches($dateString,
+                        '^\D*(\d{2})\D*(\d{2})\D*(\d{4})\D*$')))
+   then error(xs:QName('functx:Invalid_Date_Format'))
+   else xs:date(replace($dateString,
+                        '^\D*(\d{2})\D*(\d{2})\D*(\d{4})\D*$',
+                        '$3-$1-$2'))
+ } ;
+ doc("Practica1ReginoBoschLozanoXquery.xml")//Colegio/Alumnos/Alumno[functx:mmddyyyy-to-date(FechaNac)>xs:date("2013-01-01") and functx:mmddyyyy-to-date(FechaNac)<xs:date("2014-01-01") ]
