@@ -4,3 +4,15 @@
 17:05:39.536  INFO  [LibraryManager] shutdown begins
 17:05:39.556  INFO  [LibraryManager]  closed library com.qizx.xlib.A@58abfe8d
 17:05:39.556  INFO  [LibraryManager] shutdown complete.
+08:51:02.391  INFO  [LibraryManager] ---- starting up ----
+08:51:02.391  INFO  [LibraryManager]  300
+08:51:02.485  INFO  [LibraryManager] Library group ready
+09:18:35.483  INFO  [LibraryManager] shutdown begins
+09:18:35.499  INFO  [LibraryManager]  closed library com.qizx.xlib.A@34411ea3
+09:18:35.499  INFO  [LibraryManager] shutdown complete.
+09:18:58.749  INFO  [LibraryManager] ---- starting up ----
+09:18:58.749  INFO  [LibraryManager]  300
+09:18:58.842  INFO  [LibraryManager] Library group ready
+09:28:20.374  INFO  [LibraryManager] shutdown begins
+09:28:20.374  INFO  [LibraryManager]  closed library com.qizx.xlib.A@4caee0e2
+09:28:20.374  INFO  [LibraryManager] shutdown complete.

@@ -1,7 +1,8 @@
-16:52:52.103  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] library opened by Qizx 4.1p1
-16:53:07.665  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] session(libreria 1) start commit 1
-16:53:07.790  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] session(libreria 1) end commit -> state: [ 1 2 ][ 1 2 3 ]
-16:53:07.790  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] deleted docs 6
-16:53:07.790  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] deleted metadocs 7 8
-17:05:39.536  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] all sessions closed; sweeper stopped
-17:05:39.548  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria]  libreria library closed 
+08:51:02.485  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] library opened by Qizx 4.1p1
+08:51:34.015  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] session(libreria 1) start commit 1
+08:51:34.156  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] deleted metadocs 11
+08:51:34.156  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] session(libreria 1) end commit -> state: [ 1 2 3 ][ 1 2 3 4 ]
+09:18:35.483  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] all sessions closed; sweeper stopped
+09:18:35.499  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria]  libreria library closed 
+09:18:58.827  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria] library opened by Qizx 4.1p1
+09:28:20.374  INFO  [lib C:\xampp\htdocs\daw1\lenguaje\Tema 4\Libreria\libreria]  libreria library closed 

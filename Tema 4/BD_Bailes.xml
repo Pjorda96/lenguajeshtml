@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Bailes>
+ <baile id="1">
+   <nombre>Tango</nombre>nombre>
+   <precio cuota="mensual" moneda="euro">30</precio>
+   <plazas>20</plazas>
+   <comienzo>1/2/2017</comienzo>
+   <fin>5/4/2017</fin>
+   <profesor>Pepe</profesor>
+   <sala>1</sala>
+  </baile>
+  
+  <baile id="2">
+   <nombre>Cha-cha-cha</nombre>nombre>
+   <precio cuota="trimestral" moneda="euro">80</precio>
+   <plazas>18</plazas>
+   <comienzo>5/2/2017</comienzo>
+   <fin>3/7/2017</fin>
+   <profesor>Ana</profesor>
+   <sala>1</sala>
+  </baile>
+  
+   <baile id="3">
+   <nombre>Rock</nombre>nombre>
+   <precio cuota="mensual" moneda="euro">30</precio>
+   <plazas>15</plazas>
+   <comienzo>6/3/2017</comienzo>
+   <fin>9/7/2017</fin>
+   <profesor>Eva</profesor>
+   <sala>1</sala>
+  </baile>
+  
+   <baile id="4">
+   <nombre>Merengue</nombre>nombre>
+   <precio cuota="trimestral" moneda="euro">70</precio>
+   <plazas>12</plazas>
+   <comienzo>4/4/2017</comienzo>
+   <fin>8/6/2017</fin>
+   <profesor>Pepe</profesor>
+   <sala>2</sala>
+  </baile>
+
+ <baile id="5">
+   <nombre>Salsa</nombre>nombre>
+   <precio cuota="mensual" moneda="euro">40</precio>
+   <plazas>10</plazas>
+   <comienzo>5/5/2017</comienzo>
+   <fin>3/7/2017</fin>
+   <profesor>Pepe</profesor>
+   <sala>1</sala>
+  </baile>
+     <baile id="6">
+   <nombre>Pasodoble</nombre>nombre>
+   <precio cuota="trimestral" moneda="euro">70</precio>
+   <plazas>12</plazas>
+   <comienzo>4/4/2017</comienzo>
+   <fin>9/9/2017</fin>
+   <profesor>Ana</profesor>
+   <sala>2</sala>
+  </baile>
+
+ <baile id="7">
+   <nombre>Valls</nombre>nombre>
+   <precio cuota="mensual" moneda="euro">30</precio>
+   <plazas>10</plazas>
+   <comienzo>5/6/2017</comienzo>
+   <fin>3/8/2017</fin>
+   <profesor>Juan</profesor>
+   <sala>2</sala>
+  </baile>
+   <baile id="8">
+   <nombre>Swing</nombre>nombre>
+   <precio cuota="mensual" moneda="euro">40</precio>
+   <plazas>10</plazas>
+   <comienzo>5/9/2017</comienzo>
+   <fin>3/10/2017</fin>
+   <profesor>Eva</profesor>
+   <sala>1</sala>
+  </baile>
+     <baile id="9">
+   <nombre>Foxtrot</nombre>nombre>
+   <precio cuota="mensual" moneda="euro">70</precio>
+   <plazas>10</plazas>
+   <comienzo>7/9/2017</comienzo>
+   <fin>9/10/2017</fin>
+   <profesor>Juan</profesor>
+   <sala>2</sala>
+  </baile>
+ </Bailes> 
+
+
