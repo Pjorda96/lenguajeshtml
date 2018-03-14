@@ -1,0 +1,28 @@
+1
+insert node
+<entidad>
+  <nomentidad>"Falla El Cantonet"</nomentidad>
+  <ciudad>Catarroja</ciudad>
+</entidad>
+
+after doc ("Entidades festeras.xml")//entidades[1]
+
+2
+insert node
+<festero>
+  <nomfestero>"Falla El Cantonet"</nomfestero>
+  <edad>25</edad>
+</festero>
+
+after doc ("Entidades festeras.xml")//entidades/entidad[nomentidad="Cofradía San Pedro"]/festeros
+
+3
+delete node doc("Entidades falleras.xml")//entidades/entidad/festeros/festero[nomfestero=Ana]
+
+4
+delete node doc("Entidades falleras.xml")//entidades/entidad[nomentidad="Comparsa Alí Babá"]
+
+5
+replace value of node
+doc("Entidades falleras.xml")//entidades/entidad[nomentidad="Falla El Cantonet"]/ciudad with "Albal"
+

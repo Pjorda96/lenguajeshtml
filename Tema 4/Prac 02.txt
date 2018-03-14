@@ -1,0 +1,59 @@
+C1
+for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+where $entidad/nomentidad="Falla La Plaza"
+return $entidad/festeros/festero
+
+C2
+for $entidad in doc("Entidades festeras.xml")//entidades/entidad/actosfesteros/acto
+where $entidad/fecha="19/8/2012"
+return $entidad/nomacto
+
+C3
+for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+where $entidad/festeros/festero/nomfestero="Pepe"
+return $entidad/nomentidad
+
+C4
+for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+where $entidad/actosfesteros/acto/fecha="19/8/2012"
+return $entidad/festeros/festero/nomfestero
+
+C5
+for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+where $entidad/festeros/festero/edad>=29
+return
+<return>
+ {$entidad/nomentidad}
+ {$entidad/festeros/festero[edad>=29]}
+</return>
+
+C6
+for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+where $entidad/actosfesteros/acto/nomacto="Mercadillo"
+return 
+<return>
+  {$entidad/nomentidad}
+  {$entidad/actosfesteros/acto[nomacto="Mercadillo"]/fecha}
+</return>
+
+C7
+for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+let $miembros:=count($entidad/festeros/festero)
+let $edad_media:=avg($entidad/festeros/festero/edad)
+return
+<return>
+ {$entidad/nomentidad}
+ {$entidad/ciudad}
+ <miembros>{$miembros}</miembros>
+ <edad_media>{$edad_media}</edad_media>
+</return>
+
+C8
+for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+where some $x in $entidad/actosfesteros/acto/fecha satisfies contains($x, "/8/")
+return
+<return>
+ {$entidad/nomentidad}
+ {$entidad/actosfesteros/acto}
+</return>
+
