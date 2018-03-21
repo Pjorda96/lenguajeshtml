@@ -1,0 +1,64 @@
+{
+  "facturas":{
+    "empresa":{
+      "nombre":"Empresa S.L.",
+      "direccion":"Fake Street 123",
+      "nif":"965266523698",
+      "telefonos":[
+        "962315742",
+        "145223657",
+        "745856423"
+      ],
+      "cliente":[
+        {
+          "nombre":"Juan",
+          "apellidos":[
+            "Perez",
+            "Martín"
+          ],
+          "direccion":"C/La Piruleta 7",
+          "telefono":"544756981",
+          "nif":"21456325B",
+          "compra":[
+            {
+              "nombre":"zapatillas",
+              "cantidad":"2",
+              "precio":[
+                {
+                  "iva":"14.7",
+                  "base":"55.3",
+                  "total":"70",
+                  "pago":"efectivo"
+                }
+              ]
+            },
+            {
+              "nombre":"camiseta",
+              "cantidad":"4",
+              "precio":[
+                {
+                  "iva":"10.50",
+                  "base":"39.5",
+                  "total":"50",
+                  "pago":"tajeta"
+                }
+              ]
+            },
+            {
+              "nombre":"pantalones",
+              "cantidad":"2",
+              "precio":[
+                {
+                  "iva":"12.60",
+                  "base":"47.40",
+                  "total":"60",
+                  "pago":"efectivo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

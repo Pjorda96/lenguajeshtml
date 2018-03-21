@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<personas>
+  <persona>
+    <nombre>Pepe</nombre>
+    <altura>1.72</altura>
+    <peso>75</peso>
+    <aficion>Fútbol</aficion>
+    <aficion>Baloncesto</aficion>
+    <aficion>Toros</aficion>
+    <soltero>true</soltero>
+    <direccion>
+      <calle>La mascletà</calle>
+      <numero>44</numero>
+      <ciudad>Valencia</ciudad>
+    </direccion>
+  </persona>
+  <persona>
+    <nombre>Juan</nombre>
+    <altura>1.69</altura>
+    <peso>72</peso>
+    <aficion>Fútbol</aficion>
+    <aficion>Fotografía</aficion>
+    <soltero>false</soltero>
+    <direccion>
+      <calle>La Foguera</calle>
+      <numero>78</numero>
+      <pais>Alicante</pais>
+    </direccion>
+  </persona>
+</personas>
