@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Práctica 2</title>
+
+    <script language = "javascript" >
+
+       document.writeln("<h2>Práctica 2 JSON</h2>");
+
+        var NBA = { "equipos" : [
+          { "Nombre"  : "San Antonio Spurs", "Ciudad" : "San Antonio", "Estado" : "Texas", "Quinteto" : [
+            { "Nombre"  : "Pau Gasol", "Demarcación" : "Ala-Pivot", "Altura" : "2.15", "Nacionalidad" : "Español" },
+            { "Nombre"  : "Manu Ginobili", "Demarcación" : "Escolta", "Altura" : "2.03", "Nacionalidad" : "Agentino" },
+            { "Nombre"  : "Tony Parker", "Demarcación" : "Base", "Altura" : "1.90", "Nacionalidad" : "Francés" },
+            { "Nombre"  : "Kawi Leonard", "Demarcación" : "Alero", "Altura" : "2.05", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "Lamarcus Aldridge", "Demarcación" : "Pivot", "Altura" : "2.10", "Nacionalidad" : "Estadounidense" }
+          ]},
+          { "Nombre"  : "Golden State Warriors", "Ciudad" : "San Francisco", "Estado" : "California", "Quinteto" : [
+            { "Nombre"  : "Stephen Curry", "Demarcación" : "Base", "Altura" : "1.95", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "Kevin Durant", "Demarcación" : "Alero", "Altura" : "2.10", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "Klay Thompson", "Demarcación" : "Escolta", "Altura" : "1.93", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "Draymond Green", "Demarcación" : "Pivot", "Altura" : "2.10", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "Jordan Bell", "Demarcación" : "Ala-Pivot", "Altura" : "2.10", "Nacionalidad" : "Estadounidense" }
+          ]},
+          { "Nombre"  : "Cleveland Cavaliers", "Ciudad" : "Cleveland", "Estado" : "Ohio", "Quinteto" : [
+            { "Nombre"  : "LeBron James", "Demarcación" : "Ala-Pivot", "Altura" : "2.11", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "Kevin Love", "Demarcación" : "Pivot", "Altura" : "2.13", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "Kyle Korver", "Demarcación" : "Alero", "Altura" : "2.00", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "JR Smith", "Demarcación" : "Escolta", "Altura" : "2.00", "Nacionalidad" : "Estadounidense" },
+            { "Nombre"  : "Jose Manuel Calderón", "Demarcación" : "Base", "Altura" : "1.94", "Nacionalidad" : "Español" }
+          ]}
+        ]
+       }
+
+       var i = 0
+       document.writeln("<table border = '2'><tr>");
+
+       for(i = 0;i<NBA.equipos.length;i++){
+          document.writeln("<td>");
+          document.writeln("<table border = '1' width = 300 >");
+          document.writeln("<tr><td><b>Equipo</b></td><td width = 300>" + NBA.equipos[i].Nombre +"</td></tr>");
+          document.writeln("<tr><td><b>Ciudad</b></td><td width = 300>" + NBA.equipos[i].Ciudad +"</td></tr>");
+          document.writeln("<tr><td><b>Estado</b></td><td width = 300>" + NBA.equipos[i].Estado +"</td></tr>");
+          document.writeln("<tr><td><b>Quinteto</b></td><td width = 300>" "</td></tr>");
+          document.writeln("<tr><td><b>Nombre</b></td><td width = 300>" + NBA.equipos[i].Quinteto.Nombre +"</td></tr>");
+          document.writeln("<tr><td><b>Demarcación</b></td><td width = 300>" + NBA.equipos[i].Quinteto.Demarcación +"</td></tr>");
+          document.writeln("<tr><td><b>Altura</b></td><td width = 300>" + NBA.equipos[i].Quinteto.Altura +"</td></tr>");
+          document.writeln("<tr><td><b>Nacionalidad</b></td><td width = 300>" + NBA.equipos[i].Quinteto.Nacionalidad +"</td></tr>");
+          for(j = 0;j<NBA.equipos.Quinteto.length;j++){
+             document.writeln("<tr><td><b>Nombre</b></td><td width = 300>" + NBA.equipos[i].Quinteto[j].Nombre +"</td></tr>");
+             document.writeln("<tr><td><b>Demarcación</b></td><td width = 300>" + NBA.equipos[i].Quinteto[j].Demarcación +"</td></tr>");
+             document.writeln("<tr><td><b>Altura</b></td><td width = 300>" + NBA.equipos[i].Quinteto[j].Altura +"</td></tr>");
+             document.writeln("<tr><td><b>Nacionalidad</b></td><td width = 300>" + NBA.equipos[i].Quinteto[j].Nacionalidad +"</td></tr>");
+          }
+          document.writeln("</table>");
+          document.writeln("</td>");
+       }
+
+       document.writeln("</tr></table>");
+
+    </script>
+
+  </head>
+  <body>
+
+  </body>
+</html>
