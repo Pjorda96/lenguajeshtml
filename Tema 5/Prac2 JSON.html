@@ -42,16 +42,14 @@
           document.writeln("<tr><td><b>Equipo</b></td><td width = 300>" + NBA.equipos[i].Nombre +"</td></tr>");
           document.writeln("<tr><td><b>Ciudad</b></td><td width = 300>" + NBA.equipos[i].Ciudad +"</td></tr>");
           document.writeln("<tr><td><b>Estado</b></td><td width = 300>" + NBA.equipos[i].Estado +"</td></tr>");
-          document.writeln("<tr><td><b>Quinteto</b></td><td width = 300>" "</td></tr>");
-          document.writeln("<tr><td><b>Nombre</b></td><td width = 300>" + NBA.equipos[i].Quinteto.Nombre +"</td></tr>");
-          document.writeln("<tr><td><b>Demarcación</b></td><td width = 300>" + NBA.equipos[i].Quinteto.Demarcación +"</td></tr>");
-          document.writeln("<tr><td><b>Altura</b></td><td width = 300>" + NBA.equipos[i].Quinteto.Altura +"</td></tr>");
-          document.writeln("<tr><td><b>Nacionalidad</b></td><td width = 300>" + NBA.equipos[i].Quinteto.Nacionalidad +"</td></tr>");
-          for(j = 0;j<NBA.equipos.Quinteto.length;j++){
+          document.writeln("<tr><td><b>Quinteto</b></td><td width = 300>" + " " + "</td></tr>");
+          document.writeln("<tr><td><b> </b></td><td width = 300>" + " " + "</td></tr>");
+          for(j = 0;j<NBA.equipos[i].Quinteto.length;j++){
              document.writeln("<tr><td><b>Nombre</b></td><td width = 300>" + NBA.equipos[i].Quinteto[j].Nombre +"</td></tr>");
              document.writeln("<tr><td><b>Demarcación</b></td><td width = 300>" + NBA.equipos[i].Quinteto[j].Demarcación +"</td></tr>");
              document.writeln("<tr><td><b>Altura</b></td><td width = 300>" + NBA.equipos[i].Quinteto[j].Altura +"</td></tr>");
              document.writeln("<tr><td><b>Nacionalidad</b></td><td width = 300>" + NBA.equipos[i].Quinteto[j].Nacionalidad +"</td></tr>");
+             document.writeln("<tr><td><b> </b></td><td width = 300>" + " " + "</td></tr>");
           }
           document.writeln("</table>");
           document.writeln("</td>");
