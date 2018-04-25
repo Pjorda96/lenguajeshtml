@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 3</title>
+    <script type="text/javascript">
+        function Validar(nombre,nacimiento,poblacion,dorsal,demarcacion,tlf)
+        {
+            nombre=document.getElementById(nombre);
+            nacimiento=document.getElementById(nacimiento);
+            poblacion=document.getElementById(poblacion);
+            dorsal=document.getElementById(dorsal);
+            demarcacion=document.getElementById(demarcacion);
+            tlf=document.getElementById(tlf);
+
+            if(nombre.value=="")
+            {
+                alert("Debe rellenar el nombre");
+                nombre.focus();
+                return false;
+            }else if (nacimiento.value==""){
+                alert("Debe introducir el año de nacimiento");
+                nacimiento.focus();
+                return false;
+            }else if (poblacion.value==""){
+                alert("Debe introducir una población");
+                poblacion.focus();
+                return false;
+            }else if (dorsal.value==""){
+                alert("Debe introducir un dorsal");
+                dorsal.focus();
+                return false;
+            }else if (demarcacion.value==""){
+                alert("Debe introducir una demarcacion");
+                demarcacion.focus();
+                return false;
+            }else if (tlf.value==""){
+                alert("Debe introducir un teléfono");
+                tlf.focus();
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+<h1>Formulario de registro</h1>
+<br>
+<form name="formulario" method="post" action="" onsubmit="return Validar('nombre','nacimiento','poblacion','dorsal','demarcacion','tlf')">
+    <table>
+        <tr><td>Nombre: </td><td><input type="text" name="nombre" id="nombre" /></td></tr>
+        <tr><td>Fecha de Nacimiento: </td><td><input type="date" name="nacimiento" id="nacimiento" /></td></tr>
+        <tr><td>Pobloación: </td><td><input type="text" name="poblacion" id="poblacion" /></td></tr>
+        <tr><td>Dorsal: </td><td><input type="number" name="dorsal" id="dorsal" /></td></tr>
+        <tr><td>Demarcación: </td><td><input type="text" name="demarcacion" id="demarcacion" /></td></tr>
+        <tr><td>Teléfono de contacto: </td><td><input type="number" name="tlf" id="tlf" /></td></tr>
+        <tr><td colspan="2"><input type="submit" name="Conectate" value="Conéctate" /></td></tr>
+    </table>
+</form>
+</body>
+</html>
