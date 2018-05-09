@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 3</title>
+    <script type="text/javascript">
+        function Validar(nombre,comensales,hora,tlf)
+        {
+            nombre=document.getElementById(nombre);
+            comensales=document.getElementById(comensales);
+            hora=document.getElementById(hora);
+            tlf=document.getElementById(tlf);
+
+            if(nombre.value=="")
+            {
+                alert("Debe rellenar el nombre");
+                nombre.focus();
+                return false;
+            }else if (comensales.value==""){
+                alert("Debe introducir el número de comensales");
+                comensales.focus();
+                return false;
+            }else if (hora.value==""){
+                alert("Debe introducir una hora");
+                hora.focus();
+                return false;
+            }else if (tlf.value==""){
+                alert("Debe introducir un teléfono");
+                tlf.focus();
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+<h1>Reserva Para comer</h1>
+<br>
+<form name="formulario" method="post" action="" onsubmit="return Validar('nombre','comensales','hora','tlf')">
+    <table>
+        <tr><td>Nombre: </td><td><input type="text" name="nombre" id="nombre" /></td></tr>
+        <tr><td>Número de comensales: </td><td><input type="number" name="comensales" id="comensales" /></td></tr>
+        <tr><td>Hora: </td><td><input type="time" name="hora" id="hora" /></td></tr>
+        <tr><td>Teléfono de contacto: </td><td><input type="number" name="tlf" id="tlf" /></td></tr>
+        <tr><td>Observaciones: </td><td><textarea name="comentarios" rows="5" cols="40" name="observaciones" id="observaciones"></textarea></td></tr>
+        <tr><td colspan="2"><input type="submit" name="reservar" value="Reservar" /></td>
+            <td colspan="2"><input type="reset" name="limpiar" value="Limpiar" /></td></tr>
+    </table>
+</form>
+</body>
+</html>
